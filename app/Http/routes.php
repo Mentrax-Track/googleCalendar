@@ -44,3 +44,18 @@ Route::get('password/reset/{token}', 'Auth\PasswordController@getReset');
 Route::post('password/reset', 'Auth\PasswordController@postReset');
 
 
+
+
+
+
+Route::group(['middleware'=>'auth'],function(){
+    
+    Route::get('account', function(){
+        return view('account');
+    });
+
+});
+
+
+
+

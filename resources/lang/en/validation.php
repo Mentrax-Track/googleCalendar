@@ -91,6 +91,7 @@ return [
     'custom' => [
         'attribute-name' => [
             'rule-name' => 'custom-message',
+
         ],
     ],
 
@@ -106,8 +107,11 @@ return [
     */
 
     'attributes' => [
+        'name' => 'Name',
         'email' => 'E-mail',
-        'password'=>'Password'
+        'password'=>'Password',
+        'password_confirmation' =>'confirma tu pass',
+
     ],
 
 ];

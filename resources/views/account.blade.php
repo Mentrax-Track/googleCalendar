@@ -7,7 +7,12 @@
             <div class="panel panel-default">
                 <div class="panel-heading">Wellcome!!</div>
                 <div class="panel-body">
-                    <p>Hola  Jorge mundo como estas</p>
+                    <ul>
+                        <li><a>Hola</a></li>
+                        <li>aqui </li>
+                        <li>nomas</li>
+                        <li>Vaga</li>
+                    </ul>
                 </div>
             </div>
         </div>

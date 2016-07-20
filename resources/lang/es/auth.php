@@ -1,3 +1,4 @@
+
 <?php
 
 return [
@@ -15,12 +16,12 @@ return [
 
 
 
-    'failed' => 'These credentials do not match our records.',
+    'failed' => 'Tno se no se ',
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
 
-    'errors_title' => 'Porvaor fix the following errors'
-    'login_title' => 'login',
-    'login_button'=> 'login',
+    'errors_title' => 'Porvaor corrige estos errores',
+    'login_title' => 'Inicio de secion',
+    'login_button'=> 'Inicia sesion',
     'register_title' => 'Register',
     'register_button'=> 'register',
     'remember'=> 'Remember me',
